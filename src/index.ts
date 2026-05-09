@@ -16,6 +16,9 @@ app.get("/", (req: Request, res: Response) => {
 app.get("/kunal", (req: Request, res: Response) => {
   return res.send("HI Kunal Your Frist ci cd code is working fine please push the code on github and check the it working or not");
 });
+app.get("/kunal", (req: Request, res: Response) => {
+  return res.send("check its working properly or not");
+});
 
 
 app.listen(PORT, () => console.log(`Server is running on PORT ${PORT}`));
